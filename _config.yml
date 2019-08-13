@@ -7,7 +7,7 @@
 
 # Site settings
 title: IT技术博客
-brief-intro: We are a team！
+brief-intro: full stack developer paradise！
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fronted-knowledge-sharing.github.io" # the base hostname & protocol for your site
 
