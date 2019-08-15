@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圣杯布局</title>
+    <style>
+        #container {
+            padding-left: 200px;
+            padding-right: 150px;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        .float{
+            float: left;
+        }
+        #left {
+            color: red;
+            width: 200px;
+            position: relative;
+            margin-left: -100%;
+            right: 200px;
+        }
+        #mid {
+            color: #66d9ef;
+            width: 100%;
+        }
+        #right {
+            color: #4d6dad;
+            width: 150px;
+            margin-right: -150px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="mid" class="float">
+            px顾名思义就是我们通常说的像素大小。em和rem都是相对大小，不过em是继承父级元素的字体大小，rem是相对于根元素的大小，这个单位可谓是集相对大小和绝对大小为一身。通过它可以做到只修改根元素即可修改所有字体的大小，又可以避免字体大小逐层复合的连锁反应。当rem相对于浏览器进行缩放，1rem默认为16px。
+            版权声明：本文为CSDN博主「isNealyang」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
+        </div>
+        <div id="left" class="float">
+            ---------------------
+            BFC即为块级格式化上下文。在普通流的Box属于一种formatting box，类型可以为block或者为inline。但是不能同时为这两者。并且Block boxes在block formatting context里格式化，
+            版权声明：本文为CSDN博主「isNealyang」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
+            原文链接：https://blog.csdn.net/qq_29438877/article/details/96942052
+        </div>
+
+        <div id="right" class="float">
+            1、Es6中我们直接可以使用extends关键字去继承，通过重写super完成继承，但是在es5中，才是应该去主要细说的。2.原型继承的核心为父类的实例作为子类的原型。优点：非常纯粹的继承关系、简单易用、父类新增的原型方法原型属性子类都可以访问到。缺点：要为子类新增属性和方法，必须要放到new Animal（）之后，不能放到构造器中，来自原型对象的引用类型被所有实力共享，创建子类，无法向构造函数传参。3.构造函数继承核心：使用父类构造函数来增强子类的实例优点：解决了共享引用类型的问题，可以在构造函数里面传参，可以实现多继承。缺点：实例不是父类实例，只能继承父类的属性和方法，不能继承父类原型的方法和属性、无法实现函数的复用。4、组合继承的核心：通过调用父类的构造，继承父类的属性并保留参数的有点，通过父类的实例作为子类原型，实现函数复用。优点：可以继承属性和方法以及原型上的属性和方法、即是子类实例也是父类实例、不存在属性共享的问题、函数可复用。缺点：调用了两次构造函数，生成了两份实例。5、寄生组合继承核心：砍掉父类的实例属性，这样，在调用两次父类的构造时候，就不会初始化两次实例方法和属性，避免组合继承的缺点
+            ---------------------
+            版权声明：本文为CSDN博主「isNealyang」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
+            原文链接：https://blog.csdn.net/qq_29438877/article/details/96942052
+        </div>
+    </div>
+</body>
+</html>
