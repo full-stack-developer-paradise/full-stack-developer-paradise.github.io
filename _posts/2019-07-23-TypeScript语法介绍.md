@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "TypeScript-JavaScript的超集" 
+title: "TypeScript-JavaScript的超集" 
 categories: JavaScript 
 tags: TypeScript 语言 
 author: 李武帝 
@@ -29,6 +29,8 @@ let d:number = 1;
 let e:any = 333;
 ```
 一般而言，类型注解主要是对变量进行类型验证的。包括（变量、函数返回值、函数的参数等）
+
+
 
 #### 2、接口
 
