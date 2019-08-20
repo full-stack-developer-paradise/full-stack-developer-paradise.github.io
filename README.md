@@ -27,3 +27,7 @@
 ### 三、IOS
 
 ### 四、Android
+
+### 五、杂谈
+
+* [Cookie、Sesstion、localStorage、SesstionStorage使用详解](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-08-20-Cookie%E3%80%81Sesstion%E5%92%8C%E6%9C%AC%E5%9C%B0%E7%BC%93%E5%AD%98.md)
