@@ -17,6 +17,7 @@ author: 李武帝
 4. sesstionstorage，也是一种纯前端的数据存储方式，不过这个sesstionstorage，仅仅是在浏览器打开的状态下的临时数据存储，当浏览器刷新，关闭时，存储的数据会丢失。
 
 
+
 ## cookie详解
 
 正常情况下，cookie的使用场景是，保存用户的登陆信息。
