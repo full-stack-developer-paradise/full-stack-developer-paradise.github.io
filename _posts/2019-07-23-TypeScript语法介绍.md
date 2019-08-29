@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "TypeScript-JavaScript的超集" 
-categories: JavaScript 
+categories: JavaScript 前端 
 tags: TypeScript 语言 
 author: 李武帝 
 ---
