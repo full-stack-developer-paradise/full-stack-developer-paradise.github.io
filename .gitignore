@@ -1,7 +1,8 @@
 _site
-_test
 .sass-cache
 .jekyll-metadata
 .vscode
 .idea
 .DS_Store
+node_modules
+_test/CodeSplit/*/node_modules
