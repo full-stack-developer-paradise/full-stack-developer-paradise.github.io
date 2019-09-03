@@ -26,19 +26,8 @@ module.exports = {
         new HTMLWebpackPlugin({
             title: 'Code Splitting',
             filename: 'login.html',// 默认就是index.html
-            chunks: ['index'],
+            chunks: ['index', 'another'],
             template: 'static/login.html',// webpack会自动给一个html
-            inject: true
-        }),
-        new HTMLWebpackPlugin({
-            title: 'Code Splitting',
-            filename: 'main.html',// 默认就是index.html
-            chunks: ['another'],
-            template: 'static/main.html',// webpack会自动给一个html
-            inject: true
-        }),
-        new webpack.optimize.CommonsChunkPlugin({
-            name: 'common'
         })
     ],
     output: {

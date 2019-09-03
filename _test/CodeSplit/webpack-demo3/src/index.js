@@ -17,7 +17,7 @@ function getId(id) {
 getId("btn1").onclick = function () {
     console.log("btn1")
     console.log('test');
-    import(/* webpackChunkName: "btn1" */'./btn1.js').then(text => {
+    import(/* webpackChunkName: "common" */'./btn1.js').then(text => {
         console.log(text);
         getId("box").innerHTML = text.text;
     })
@@ -25,7 +25,7 @@ getId("btn1").onclick = function () {
 getId("btn2").onclick = function () {
     console.log("btn2")
     console.log('test2')
-    import(/* webpackChunkName: "btn2" */'./btn2.js').then(text => {
+    import(/* webpackChunkName: "common" */'./btn2.js').then(text => {
         console.log(text);
         getId("box").innerHTML = text.text;
     })

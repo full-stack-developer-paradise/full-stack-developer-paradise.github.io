@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[,,function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});t.text="我是btn1"},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});t.text="我是btn2"}]]);

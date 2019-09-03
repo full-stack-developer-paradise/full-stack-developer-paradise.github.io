@@ -11,12 +11,12 @@ getId("btn1").onclick = function () {
         getId('box').innerHTML = btn1.text;
     }, function (error) {
         console.log(error)
-    }, 'btn1')
+    }, 'common')
 }
 getId("btn2").onclick = function () {
     require.ensure([], function () {
         let btn2 = require('./btn2.js');
         console.log(btn2);
         getId('box').innerHTML = btn2.text;
-    }, 'btn2')
+    }, 'common')
 }
