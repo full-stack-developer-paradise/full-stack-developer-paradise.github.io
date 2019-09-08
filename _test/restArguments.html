@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rest参数</title>
+</head>
+<body>
+<script>
+    function func(a, ...rest) {
+        console.log(a);
+        console.log(rest);
+    }
+    func(1);// 1, []
+    func(1, 2); // 1, [2]
+    func(1, 2, 3); // 1, [2, 3]
+
+    function restArguments(func) {
+        let startIndex = func.length - 1; // 表示位于最后一个参数就是接受rest数组；
+        return function () {
+            let length = arguments.length - startIndex;
+            if (length < 0) {
+                length = 0;
+            }
+            // 0个参数，legnth = 1；
+            let rest = [];
+            for (let i = 0; i < length; i++) {
+                rest[i] = arguments[startIndex + i];
+            }
+            switch (startIndex) {
+                case 0: return func.call(this, rest);
+                case 1: return func.call(this, arguments[0], rest);
+                case 2: return func.call(this, arguments[0], arguments[1], rest);
+                case 3: return func.call(this, arguments[0], arguments[1], arguments[2], rest);
+            }
+            var args = [];
+            for (let j = 0; j < startIndex; j++) {
+                args[j] = arguments[j]
+            }
+            args[startIndex] = rest
+            func.call(this, args)
+        }
+    }
+    function add(a, b, c, d, e) {
+
+    }
+    restArguments(add)(1,2,3,4,5,6);
+</script>
+</body>
+</html>
