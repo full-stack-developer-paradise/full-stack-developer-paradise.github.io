@@ -13,7 +13,7 @@
 
 #### | Mysql
 
-- [Mysql常用命令]()
+- [Mysql常用命令](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-10-Mysql%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
 
 
 ### 二、前端
