@@ -13,7 +13,8 @@
 
 #### | Mysql
 
-- [Mysql常用命令](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-10-Mysql%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
+- [Mysql常用数据库操作](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-10-Mysql%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
+- [Mysql创建表和数据类型](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-11-Mysql%E6%95%B0%E6%8D%AE%E8%A1%A8%E6%93%8D%E4%BD%9C.md)
 
 
 ### 二、前端
