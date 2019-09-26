@@ -64,6 +64,9 @@ CREATE TABLE user5(
 ALTER TABLE user5
 MODIFY id INT UNSIGNED;
 
+ALTER TABLE user1
+MODIFY emial emial VARCHAR(20);
+
 CREATE TABLE user6(
     id INT UNSIGNED AUTO_INCREMENT KEY,
     username VARCHAR(20) NOT NULL,
@@ -117,3 +120,28 @@ CREATE TABLE test_innodb(
     id INT UNSIGNED AUTO_INCREMENT KEY,
     username VARCHAR(20) NOT NULL
 );
+
+SELECT addr,
+GROUP_CONCAT(username) AS userDetail,
+COUNT(*) AS totalUsers
+FROM user1
+GROUP BY addr;
+
+
+
+SELECT sdept FROM student
+GROUP BY sdept;
+
+INSERT INTO user1 (username,age,sex,addr,married,salary,userDesc) values
+('李武帝',28,'男','北京',1,30000,'为版本'),
+('mapbar_front',28,'男','天津',1,20000,'大概是'),
+('lily',28,'女','上海',1,40000,'围观'),
+('rose',28,'女','北京',1,50000,'比较看好过'),
+('fengmeng',28,'女','深圳',1,890000,'喊口号'),
+('locy',28,'男','北京',1,35000,'是回家可好');
+
+SELECT addr,
+GROUP_CONCAT(username) AS usersDetail,
+COUNT(*) AS totalUsers,
+SUM(age) AS sum_age,
+MAX
