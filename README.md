@@ -18,6 +18,7 @@
 - [Mysql完整性约束](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-12-Mysql%E5%AE%8C%E6%95%B4%E6%80%A7%E7%BA%A6%E6%9D%9F.md)
 - [Mysql表的管理和操作](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-14-Mysql%E8%A1%A8%E7%9A%84%E7%AE%A1%E7%90%86.md)
 - [Mysql存储引擎](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-17-Mysql%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E.md)
+- [Mysql外键约束](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-10-07-Mysql%E5%A4%96%E9%94%AE%E7%BA%A6%E6%9D%9F.md)
 
 ### 二、前端
 
@@ -25,10 +26,12 @@
 * [BFC解读](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-08-16-%E8%A7%A3%E8%AF%BBBFC.md)
 * [PWA技术](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-08-24-PWA.md)
 * [webpack代码分割](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-08-26-webpack%E4%BB%A3%E7%A0%81%E5%88%86%E5%89%B2.md)
+* [微信公众号开发，应该注意的点](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-10-15-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E5%BC%80%E5%8F%91.md)
 
 #### | Vue
 
 * [Vue插件开发指南](https://github.com/fronted-knowledge-sharing/fronted-knowledge-sharing.github.io/blob/master/_posts/2019-07-23-Vue%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91.md)
+* [Vue脚手架3.0配置多页应用](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-11-11-Vue%E8%84%9A%E6%89%8B%E6%9E%B63%E7%9B%B8%E5%85%B3.md)
 
 #### | Weex
 
