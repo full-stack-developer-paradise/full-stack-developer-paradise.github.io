@@ -187,6 +187,31 @@ GROUP BY class.name,score.course
 ORDER BY average DESC;
 
 
+CREATE TABLE IF NOT EXISTS goods (
+    id INT UNSIGNED AUTO_INCREMENT KEY,
+    name VARCHAR(20) NOT NULL,
+    price FLOAT NOT NULL,
+    desp VARCHAR(30) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=UTF8;
+
+INSERT INTO goods VALUES
+(null,'手机',2000.0,'黑色，存储容量32G'),
+(null,'冰箱',1500.0,'银色，对开门'),
+(null,'洗衣机',3000.0,'滚筒'),
+(null,'空调',4000.0,'变频空调');
+
+CREATE TABLE IF NOT EXISTS imooc (
+    id INT UNSIGNED AUTO_INCREMENT KEY,
+    name VARCHAR(20) NOT NULL,
+    price FLOAT NOT NULL,
+    desp VARCHAR(30) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=UTF8;
+
+INSERT INTO imooc VALUES
+(null,'手机',2000.0,'黑色，存储容量32G'),
+(null,'冰箱',1500.0,'银色，对开门'),
+(null,'洗衣机',3000.0,'滚筒'),
+(null,'空调',4000.0,'变频空调');
 
 
 
