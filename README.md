@@ -14,7 +14,7 @@
 
 #### | Mysql
 
-- [Mysql常用数据库操作](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-10-Mysql%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
+- [Mysql常用数据库操作](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-10-Mysql%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C.md)
 - [Mysql创建表和数据类型](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-11-Mysql%E6%95%B0%E6%8D%AE%E8%A1%A8%E6%93%8D%E4%BD%9C.md)
 - [Mysql完整性约束](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-12-Mysql%E5%AE%8C%E6%95%B4%E6%80%A7%E7%BA%A6%E6%9D%9F.md)
 - [Mysql表的管理和操作](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-14-Mysql%E8%A1%A8%E7%9A%84%E7%AE%A1%E7%90%86.md)
@@ -31,15 +31,15 @@
 
 #### | Vue
 
-* [Vue插件开发指南](https://github.com/fronted-knowledge-sharing/fronted-knowledge-sharing.github.io/blob/master/_posts/2019-07-23-Vue%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91.md)
+* [Vue插件开发指南](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-07-23-Vue%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91.md)
 * [Vue脚手架3.0配置多页应用](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-11-11-Vue%E8%84%9A%E6%89%8B%E6%9E%B63%E7%9B%B8%E5%85%B3.md)
 
 #### | Weex
 
 #### | JavaScript
 
-* [TypeScript语法介绍](https://github.com/fronted-knowledge-sharing/fronted-knowledge-sharing.github.io/blob/master/_posts/2019-07-23-TypeScript%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D.md)
-* [表单的序列化](https://github.com/fronted-knowledge-sharing/fronted-knowledge-sharing.github.io/blob/master/_posts/2019-07-29-%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E5%BA%8F%E5%88%97%E5%8C%96.md)
+* [TypeScript语法介绍](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-07-23-TypeScript%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D.md)
+* [表单的序列化](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-07-29-%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E5%BA%8F%E5%88%97%E5%8C%96.md)
 * [restArguments函数解读](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-05-restArguments%E5%87%BD%E6%95%B0%E8%A7%A3%E8%AF%BB.md)
 
 ### 三、IOS
