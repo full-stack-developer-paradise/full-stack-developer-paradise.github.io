@@ -7,6 +7,7 @@
 #### | Java
 
 - [Docker随手笔记](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_server/2019-08-19-Docker%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+- [Ubuntu安装k8s](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_server/2020-04-24-K8s%E5%AE%89%E8%A3%85.md)
 - [EL表达式和JSTL标签库](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-08-20-Java%E4%B8%ADEL%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%BB%A5%E5%8F%8AJSTL.md)
 - [Java中的监听器](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-08-22-%E7%9B%91%E5%90%AC%E5%99%A8.md)
 - [FreeMarker](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-09-03-Freemarker.md)
