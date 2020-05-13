@@ -53,4 +53,4 @@
 * [JSON在JavaScript和Java中的处理](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_posts/2019-08-20-JSON.md)
 * [Typora-Markdown写作示例](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_server/2019-08-27-Typora-Markdown%E5%86%99%E4%BD%9C%E7%A4%BA%E4%BE%8B.md)
 * [Typora-快捷键.md](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/master/_server/2019-08-27-Typora-%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
-
+* [IDEA Maven项目中导入本地jar包.md](https://github.com/full-stack-developer-paradise/full-stack-developer-paradise.github.io/blob/ffe5593103bc8c6007e88e766d315df08beb6a07/_server/2020-05-13-IDEA%20Maven%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%AF%BC%E5%85%A5%E6%9C%AC%E5%9C%B0jar%E5%8C%85.md)
